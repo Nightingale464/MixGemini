@@ -23,6 +23,16 @@
 - **贴边滑出**　平时收起导航栏，鼠标移到屏幕左边缘时滑出，移开后自动收起。
 - **顶部胶囊（默认）**　导航按钮集中在屏幕顶部的小工具栏，可直接切换 Gemini、AG 和分屏，也能打开设置。
 
+## 界面预览
+
+| Gemini 聊天 | Antigravity 工作区 |
+| --- | --- |
+| [![Gemini 聊天首页](docs/screenshots/gemini.png)](docs/screenshots/gemini.png) | [![Antigravity 工作区](docs/screenshots/antigravity.png)](docs/screenshots/antigravity.png) |
+
+| 并排分屏 | 顶部胶囊与边栏设置 |
+| --- | --- |
+| [![左侧 Gemini、右侧 Antigravity 的分屏视图](docs/screenshots/split.png)](docs/screenshots/split.png) | [![顶部胶囊展开设置面板，显示三种边栏模式](docs/screenshots/settings.png)](docs/screenshots/settings.png) |
+
 ## 启动方式
 
 双击 [启动MixGemini.bat](file:///D:/Ddesktop/desktop/folder/codegemini/mixgemini/启动MixGemini.bat)，或在终端执行：
