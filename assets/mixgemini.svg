@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bgB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="coreB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="55%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="ringB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="56" fill="url(#bgB)"/>
+  <rect x="14" y="14" width="228" height="228" rx="54" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <ellipse cx="128" cy="128" rx="86" ry="44" transform="rotate(-28 128 128)"
+           fill="none" stroke="url(#ringB)" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="128" cy="128" rx="86" ry="44" transform="rotate(28 128 128)"
+           fill="none" stroke="#6366f1" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+  <path d="M128 54 C134 98, 158 122, 202 128 C158 134, 134 158, 128 202 C122 158, 98 134, 54 128 C98 122, 122 98, 128 54 Z"
+        fill="url(#coreB)"/>
+  <circle cx="192" cy="84" r="11" fill="#06b6d4"/>
+</svg>

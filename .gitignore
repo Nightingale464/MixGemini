@@ -1,0 +1,11 @@
+data/
+MixGemini.lnk
+HANDOFF_CODEX.md
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+.venv/
+venv/
+*.log
